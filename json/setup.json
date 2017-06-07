@@ -1,8 +1,8 @@
 {
   "id": "gearContainer",
   "albumCover": "img/thumbs/01.jpg",
-  "albumTitle": "Feel the Sound",
-  "albumAuthor": "Audio Jungle",
+  "albumTitle": "Ginete - Instrumental",
+  "albumAuthor": "Pantelis Pantelidis",
   "soundcloudEnabled": false,
   "soundcloudClientID": "go to http://soundcloud.com/you/apps/new and get your client ID there",
   "soundcloudSet": "this should be something like http://soundcloud.com/you/sets/youralbum",
@@ -40,31 +40,10 @@
   "dockToRight": false,
   "entries": [
     {
-      "title": "Cloudless Days",
-      "author": "ADG3studios",
-      "media": "mp3/adg3com_cloudlessdays.mp3",
-      "link": "http://audiojungle.net/user/ADG3studios",
-      "color": "#56B0E8"
-    },
-    {
-      "title": "Freeform",
-      "author": "ADG3studios",
-      "media": "mp3/adg3com_freeform.mp3",
-      "link": "http://audiojungle.net/user/ADG3studios",
-      "color": "#56B0E8"
-    },
-    {
-      "title": "Cloudless Days",
-      "author": "ADG3studios",
-      "media": "mp3/adg3com_cloudlessdays.mp3",
-      "link": "http://audiojungle.net/user/ADG3studios",
-      "color": "#56B0E8"
-    },
-    {
-      "title": "Freeform",
-      "author": "ADG3studios",
-      "media": "mp3/adg3com_freeform.mp3",
-      "link": "http://audiojungle.net/user/ADG3studios",
+      "title": "Ginete",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/ginete_instrumental.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
       "color": "#56B0E8"
     }
   ]
