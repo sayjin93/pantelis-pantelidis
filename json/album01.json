@@ -1,0 +1,93 @@
+{
+  "albumCover": "img/thumbs/01.jpg",
+  "albumTitle": "Alkoolikés I Níkhtes",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "Alkoolikes I Nikhtes",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/01.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Sinodevomai",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/02.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Pios Inai Aftos",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/03.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Alexísphairo Yileko",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/04.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Lioma Se Gkremm",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/05.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Pame Stikhima Tha Xanarthis",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/06.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "To Phidi",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/07.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Se Paradekhomai",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/08.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Den Tairiazete Sou Leo",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/09.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Isos Isoun Kiria",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/10.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Theo Mou Isai",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/11.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Paramithiazomai",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album01/12.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "albumCover": "img/thumbs/03.jpg",
+  "albumTitle": "Pansélinos Kai Káti - Is-Pní [A' Méros]",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "Ach, Kai Na Erchosoun",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album03/01.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Ta Schoinia Sou",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album03/02.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Panselinos Kai Kati",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album03/03.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Tipota",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album03/04.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Xtipa",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album03/05.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Pino Apo' Kei Psilá Gia Sena",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album03/06.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Na Sou Po",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album03/07.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Skoupise Ta Podia Sou Kai Perase",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album03/08.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}

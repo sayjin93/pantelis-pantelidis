@@ -1,0 +1,58 @@
+{
+  "albumCover": "img/thumbs/04.jpg",
+  "albumTitle": " Pansélinos Kai Káti - Ek-Pní [V' Méros]",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "O Asos",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album04/01.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Ki Ego S' Agapo",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album04/02.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Pseftika Fengaria",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album04/03.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "An Eísai Ekeí",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album04/04.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Tora Pou Perase I Bora",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album04/05.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Para Poli",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album04/07.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Pyrkagia",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album04/08.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}

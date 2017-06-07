@@ -1,0 +1,107 @@
+{
+  "albumCover": "img/thumbs/02.jpg",
+  "albumTitle": "Ouránio Tóxo Pou Tou Lípane Dyo Khrómata",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "Oikos Anochis",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/01.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Tetoia Agápi Den Axízo",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/02.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Fyge Apo To Myalo Mou",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/03.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Klamata",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/04.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Ta Paplómata",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/05.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Eíxa Kapote Mia Agapi",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/06.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Kopse Me Sta Dyo",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/07.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Kako Skylí",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/08.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Dedomeno",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/09.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Defteri Fora",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/10.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Ginetai",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/11.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "De Se Synchoro",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/12.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Oneiro Zo",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/13.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Sto Fanari",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album02/14.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}
