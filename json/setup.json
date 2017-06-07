@@ -8,7 +8,7 @@
   "volume": 100,
   "peak": true,
   "equalizer": true,
-  "equalizerSVG": false,
+  "equalizerSVG": true,
   "equalizerSize": 200,
   "equalizerPadding": 25,
   "equalizerColor": "#EAEAEA",
