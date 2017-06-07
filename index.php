@@ -32,6 +32,7 @@
             <li><a href="#about">Biography</a></li>
             <li><a href="#albums">Albums</a></li>
             <li><a href="#singles">Singles</a></li>
+            <li><a href="#liveShows">Live Shows</a></li>
         </ul>
     </aside>
     <!-- Mobile Navigation End -->
@@ -50,6 +51,7 @@
                         <li><a href="#about">Biography</a></li>
                         <li><a href="#albums">Albums</a></li>
                         <li><a href="#singles">Singles</a></li>
+                        <li><a href="#liveShows">Live Shows</a></li>
                     </ul>
 
                     <span class="show-for-small offcanvas-toggle"><i class="fi-list"></i></span>
@@ -308,7 +310,43 @@
 
                 </section>
 
+                <section id="liveShows">
+                    <div class="row">
+                        <div class="columns">
+                            <h3>Live Shows</h3>
+                            <hr>
+                        </div>
+                    </div>
 
+                    <div class="row">
+
+                        <div class="large-6 medium-6 columns">
+                            <div class="cover" data-gearPath="json/live01.json">
+                                <img src="img/covers/live01.jpg">
+                                <div class="over"><span class="floater"></span><i class="fi-play-circle"></i></div>
+                            </div>
+
+                            <div class="album">
+                                <div>Fantasia (New Year's Day)</div>
+                                <span>2016</span>
+                            </div>
+                        </div>
+
+                        <div class="large-6 medium-6 columns">
+                            <div class="cover playing" data-gearPath="json/live02.json">
+                                <img src="img/covers/live02.jpg">
+                                <div class="over"><span class="floater"></span><i class="fi-play-circle"></i></div>
+                            </div>
+
+                            <div class="album">
+                                <div>Christmas Eve 24/12/15</div>
+                                <span>2015</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
                 <footer>
                     <div class="row">
 

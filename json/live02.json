@@ -1,0 +1,16 @@
+{
+  "albumCover": "img/thumbs/live02.jpg",
+  "albumTitle": "Christmas Eve 24.12.2015",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "Christmas Eve 24.12.2015",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/live/02.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}

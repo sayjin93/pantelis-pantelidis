@@ -1,0 +1,16 @@
+{
+  "albumCover": "img/thumbs/live01.jpg",
+  "albumTitle": "Fantasia (New Year's Day)",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "Fantasia (New Year's Day)",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/live/01.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}
