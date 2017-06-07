@@ -1,6 +1,6 @@
 {
   "id": "gearContainer",
-  "albumCover": "img/thumbs/01.jpg",
+  "albumCover": "img/thumbs/live01.jpg",
   "albumTitle": "Ginete - Instrumental",
   "albumAuthor": "Pantelis Pantelidis",
   "autoPlay": true,
@@ -36,9 +36,9 @@
   "dockToRight": false,
   "entries": [
     {
-      "title": "Ginete",
+      "title": "Fantasia (New Year's Day)",
       "author": "Pantelis Pantelidis",
-      "media": "mp3/ginete_instrumental.mp3",
+      "media": "mp3/live/live01.mp3",
       "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
       "color": "#56B0E8"
     }
