@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Pantelis Pantelidis</title>
-    <link rel="icon" type="image/png" href="favicon.png?v=0.1"/>
+    <link rel="icon" type="image/png" href="favicon.ico"/>
 
     <link rel="stylesheet" href="css/foundation.min.css"/>
 

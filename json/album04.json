@@ -1,6 +1,6 @@
 {
   "albumCover": "img/thumbs/04.jpg",
-  "albumTitle": " Pansélinos Kai Káti - Ek-Pní [V' Méros]",
+  "albumTitle": "Pansélinos Kai Káti - Ek-Pní [V' Méros]",
   "albumAuthor": "Pantelis Pantelidis",
   "autoPlay": true,
   "shuffle": true,
@@ -42,6 +42,13 @@
     },
     {
       "title": "Para Poli",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/album04/06.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    },
+    {
+      "title": "Molis Horises",
       "author": "Pantelis Pantelidis",
       "media": "mp3/album04/07.mp3",
       "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
