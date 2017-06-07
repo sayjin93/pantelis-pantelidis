@@ -1,1 +1,13 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/deployment.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/pantelis.iml
+.idea/php.xml
+.idea/vcs.xml
+.idea/webServers.xml
+.idea/workspace.xml
+css/foundation-icons/.DS_Store
+js/libs/greensock/.DS_Store
+js/libs/greensock/plugins/.DS_Store
+js/libs/greensock/utils/.DS_Store
