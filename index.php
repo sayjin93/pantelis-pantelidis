@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Pantelis Pantelidis</title>
-    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link rel="icon" type="image/png" href="favicon.ico?v=0.1"/>
 
     <link rel="stylesheet" href="css/foundation.min.css"/>
 
@@ -19,7 +19,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
 </head>
 <body>
 
@@ -369,7 +368,6 @@
 </div>
 <!-- Stage Wrapper End -->
 
-
 <!-- Gear Player Start -->
 <div class="gearWrap">
     <div id="gearContainer" class="gear" data-gear="json/setup.json"></div>
@@ -380,9 +378,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/foundation.min.js"></script>
 
-<script src="http://connect.soundcloud.com/sdk.js"></script>
-
-<script src="js/jquery.gearplayer.libs.min.js"></script>
+<script src="js/jquery.gearplayer.libs.js"></script>
 <script src="js/jquery.gearplayer.min.js"></script>
 
 <script src="js/app.js"></script>
