@@ -1,0 +1,16 @@
+{
+  "albumCover": "img/thumbs/single01.jpg",
+  "albumTitle": "Tis Kardias Mou To Grammeno",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "Tis Kardias Mou To Grammeno",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/singles/01.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}

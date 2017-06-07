@@ -257,8 +257,8 @@
                     <div class="row">
 
                         <div class="large-6 medium-6 columns">
-                            <div class="cover" data-gearPath="json/album01.json">
-                                <img src="img/covers/01.jpg">
+                            <div class="cover" data-gearPath="json/single01.json">
+                                <img src="img/covers/single1.jpg">
                                 <div class="over"><span class="floater"></span><i class="fi-play-circle"></i></div>
                             </div>
 
@@ -269,8 +269,8 @@
                         </div>
 
                         <div class="large-6 medium-6 columns">
-                            <div class="cover playing" data-gearPath="json/album02.json">
-                                <img src="img/covers/02.jpg">
+                            <div class="cover playing" data-gearPath="json/single02.json">
+                                <img src="img/covers/single2.jpg">
                                 <div class="over"><span class="floater"></span><i class="fi-play-circle"></i></div>
                             </div>
 
@@ -281,8 +281,8 @@
                         </div>
 
                         <div class="large-6 medium-6 columns">
-                            <div class="cover" data-gearPath="json/album03.json">
-                                <img src="img/covers/03.jpg">
+                            <div class="cover" data-gearPath="json/single03.json">
+                                <img src="img/covers/single3.jpg">
                                 <div class="over"><span class="floater"></span><i class="fi-play-circle"></i></div>
                             </div>
 
@@ -293,8 +293,8 @@
                         </div>
 
                         <div class="large-6 medium-6 columns">
-                            <div class="cover" data-gearPath="json/album04.json">
-                                <img src="img/covers/04.jpg">
+                            <div class="cover" data-gearPath="json/single04.json">
+                                <img src="img/covers/single4.jpg">
                                 <div class="over"><span class="floater"></span><i class="fi-play-circle"></i></div>
                             </div>
 

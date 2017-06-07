@@ -1,0 +1,16 @@
+{
+  "albumCover": "img/thumbs/single04.jpg",
+  "albumTitle": "Karavia Sto Vitho",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "Karavia Sto Vitho",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/singles/04.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}

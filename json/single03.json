@@ -1,0 +1,16 @@
+{
+  "albumCover": "img/thumbs/single03.jpg",
+  "albumTitle": "Alli Mia Efkeria",
+  "albumAuthor": "Pantelis Pantelidis",
+  "autoPlay": true,
+  "shuffle": true,
+  "entries": [
+    {
+      "title": "Alli Mia Efkeria",
+      "author": "Pantelis Pantelidis",
+      "media": "mp3/singles/03.mp3",
+      "link": "https://www.youtube.com/user/PadelisPadelidisVEVO",
+      "color": "#56B0E8"
+    }
+  ]
+}
