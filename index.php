@@ -51,6 +51,7 @@
             <li><a href="#albums">Albums</a></li>
             <li><a href="#singles">Singles</a></li>
             <li><a href="#liveShows">Live Shows</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </aside>
     <!-- Mobile Navigation End -->
@@ -70,6 +71,7 @@
                         <li><a href="#albums">Albums</a></li>
                         <li><a href="#singles">Singles</a></li>
                         <li><a href="#liveShows">Live Shows</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
 
                     <span class="show-for-small offcanvas-toggle"><i class="fi-list"></i></span>
@@ -365,6 +367,71 @@
                     </div>
 
                 </section>
+
+                <section id="contact">
+                    <div class="row">
+                        <div class="columns">
+                            <h3>Contact</h3>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+						<?php
+						$action = "";
+						if ( ! empty( $_REQUEST['acction'] ) ) {
+							$action = $_REQUEST['action'];
+						}
+						if ( $action == "" )    /* display the contact form */ {
+							?>
+                            <form action="" method="POST" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="submit">
+
+                                <div class="large-6 medium-6 small-12 columns">
+                                    <p>
+                                        Your name:<br/>
+                                        <input name="name" type="text" value="" size="30"/><br>
+                                    </p>
+                                </div>
+                                <div class="large-6 medium-6 small-12 columns">
+                                    <p>
+                                        Your email:<br/>
+                                        <input name="email" type="text" value="" size="30"/><br>
+                                    </p>
+                                </div>
+                                <div class="large-12 medium-12 small-12 columns">
+                                    <p>
+                                        Your message:<br>
+                                        <textarea name="message" rows="7" cols="30"></textarea><br>
+                                    </p>
+                                </div>
+                                <div class="large-12 medium-12 small-12 columns">
+                                    <p>
+                                        <input type="submit" value="Send email"/>
+                                    </p>
+                                </div>
+
+                            </form>
+
+							<?php
+						} else                /* send the submitted data */ {
+							$name    = $_REQUEST['name'];
+							$email   = $_REQUEST['email'];
+							$message = $_REQUEST['message'];
+							if ( ( $name == "" ) || ( $email == "" ) || ( $message == "" ) ) {
+								echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+							} else {
+								$from    = "From: $name<$email>\r\nReturn-path: $email";
+								$subject = "Message sent using your contact form";
+								mail( "info@pantelispantelidis.gr", $subject, $message, $from );
+								echo "Email sent!";
+							}
+						}
+						?>
+                    </div>
+                </section>
+
                 <footer>
                     <div class="row">
 
