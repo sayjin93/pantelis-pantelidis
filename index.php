@@ -409,7 +409,7 @@
                                 </div>
                                 <div class="large-12 medium-12 small-12 columns">
                                     <p>
-                                        <input type="submit" value="Send email"/>
+                                        <input type="submit" value="Send email" class="button radius"/>
                                     </p>
                                 </div>
 
