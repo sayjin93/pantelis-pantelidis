@@ -380,9 +380,10 @@
 
 						<?php
 						$action = "";
-						if ( ! empty( $_REQUEST['acction'] ) ) {
+						if ( array_key_exists( 'action', $_REQUEST ) ) {
 							$action = $_REQUEST['action'];
 						}
+
 						if ( $action == "" )    /* display the contact form */ {
 							?>
                             <form action="" method="POST" enctype="multipart/form-data">
