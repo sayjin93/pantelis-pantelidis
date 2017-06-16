@@ -12,8 +12,8 @@
 
     <link rel="stylesheet" href="css/foundation.min.css"/>
 
-    <link rel="stylesheet" href="css/gear.css?v=0.1">
-    <link rel="stylesheet" href="css/styles.css?v=0.1">
+    <link rel="stylesheet" href="css/gear.css?v=0.2">
+    <link rel="stylesheet" href="css/styles.css?v=0.2">
 
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="viewport"
