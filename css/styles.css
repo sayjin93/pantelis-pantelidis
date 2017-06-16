@@ -16,11 +16,11 @@ body {
     color: #eaeaea;
     background-color: #111;
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 p {
-    font-size: .95em
+    font-size: .95em;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
     -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
-    transition: all .2s ease-out
+    transition: all .2s ease-out;
 }
 
 a:hover, a:active, a:focus {
@@ -36,13 +36,13 @@ a:hover, a:active, a:focus {
     -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
-    transition: all .2s ease-out
+    transition: all .2s ease-out;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #eaeaea;
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: -1pt
+    letter-spacing: -1pt;
 }
 
 .stage {
@@ -50,13 +50,13 @@ h1, h2, h3, h4, h5, h6 {
     height: inherit;
     float: left;
     width: 100%;
-    background-color: #111
+    background-color: #111;
 }
 
 .stage .wrap {
     height: inherit;
     color: #eaeaea;
-    background-color: #111
+    background-color: #111;
 }
 
 .stage .wrap header {
@@ -118,30 +118,30 @@ h1, h2, h3, h4, h5, h6 {
     background: 0;
     border: 1px solid rgba(255, 255, 255, 0.6);
     letter-spacing: 1pt;
-    opacity: .7
+    opacity: .7;
 }
 
 .stage .wrap header nav section ul a.button:hover {
-    opacity: 1
+    opacity: 1;
 }
 
 .stage .wrap header nav section ul li:last-child {
-    padding-left: 1em
+    padding-left: 1em;
 }
 
 .stage .wrap header nav section .offcanvas-toggle {
     cursor: pointer;
     font-size: 1.5em;
-    line-height: 46px
+    line-height: 46px;
 }
 
 .stage .wrap header nav hr {
     opacity: .3;
-    margin: 0
+    margin: 0;
 }
 
 .stage .wrap .content {
-    padding-top: 90px
+    padding-top: 90px;
 }
 
 .stage .wrap .content h2 {
@@ -179,6 +179,12 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     width: 100%;
     padding: 20px 0
+}
+
+.stage .wrap .content section#about {
+    background-image: url("../img/background.jpg");
+    background-position: 0 -375px;
+    background-repeat: no-repeat;
 }
 
 .stage .wrap .content section .center {

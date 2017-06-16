@@ -4,7 +4,6 @@
 <!--[if gt IE 9]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
