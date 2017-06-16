@@ -182,6 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .stage .wrap .content section#about {
+    background-color: #634f54;
     background-image: url("../img/background.jpg");
     background-position: 0 -375px;
     background-repeat: no-repeat;
