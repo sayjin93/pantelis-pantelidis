@@ -425,16 +425,16 @@
 
                             if ($recaptcha->score >= 0.5) {
                                 if (($name == "") || ($email == "") || ($message == "")) {
-                                    echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+                                    echo "<script type='text/javascript'>alert('All fields are required, please fill the form again.');</script>";
                                 } else {
                                     $from = "From: $name<$email>\r\nReturn-path: $email";
                                     $subject = "Message sent using your contact form";
                                     mail("info@pantelispantelidis.gr", $subject, $message, $from);
-                                    echo "Email sent succesfully!";
+                                    echo "<script type='text/javascript'>alert('Email sent succefully!');</script>";
                                 }
                             } else {
                                 // Not verified - show form error
-                                echo "reCaptcha not verified!";
+                                echo "<script type='text/javascript'>alert('reCaptcha not verified. Email did not send!');</script>";
                             }
                         }
                         ?>
