@@ -1,3 +1,8 @@
+<?php
+
+include 'mail.php';
+?>
+
 <!doctype html>
 <!--[if IE 9]>
 <html class="no-js lt-ie10" lang="en"> <![endif]-->
@@ -377,7 +382,7 @@
 
                     <div class="row">
 
-                        <form action="mail.php" method="POST" enctype="multipart/form-data">
+                        <form action="" method="POST" enctype="multipart/form-data">
                             <input type="hidden" name="action" value="submit">
 
                             <div class="large-6 medium-6 small-12 columns">
