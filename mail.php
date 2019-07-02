@@ -13,7 +13,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])
     // Take action based on the score returned:
     if ($recaptcha->score >= 0.5) {
         // Verified - send email
-        echo "Email send succesfully!";
+        $name = $_REQUEST['name'];
+        $email = $_REQUEST['email'];
+        $message = $_REQUEST['message'];
+        if (($name == "") || ($email == "") || ($message == "")) {
+            echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+        } else {
+            $from = "From: $name<$email>\r\nReturn-path: $email";
+            $subject = "Message sent using your contact form";
+            mail("info@pantelispantelidis.gr", $subject, $message, $from);
+            echo "Email sent succesfully!";
+        }
     } else {
         // Not verified - show form error
         echo "Email did not send! reCaptcha not virified.";
