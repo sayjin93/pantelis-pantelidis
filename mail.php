@@ -13,6 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])
     // Take action based on the score returned:
     if ($recaptcha->score >= 0.5) {
         // Verified - send email
+        echo "Email send succesfully!";
     } else {
         // Not verified - show form error
         echo "Email did not send! reCaptcha not virified.";
