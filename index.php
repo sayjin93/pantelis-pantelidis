@@ -19,12 +19,13 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+    <!-- Google Analytics -->
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
             a = s.createElement(o),
                 m = s.getElementsByTagName(o)[0];
             a.async = 1;
@@ -36,7 +37,6 @@
         ga('send', 'pageview');
 
     </script>
-
 </head>
 <body>
 
@@ -377,58 +377,36 @@
 
                     <div class="row">
 
-						<?php
-						$action = "";
-						if ( array_key_exists( 'action', $_REQUEST ) ) {
-							$action = $_REQUEST['action'];
-						}
+                        <form action="mail.php" method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="action" value="submit">
 
-						if ( $action == "" )    /* display the contact form */ {
-							?>
-                            <form action="" method="POST" enctype="multipart/form-data">
-                                <input type="hidden" name="action" value="submit">
+                            <div class="large-6 medium-6 small-12 columns">
+                                <p>
+                                    Your name:<br/>
+                                    <input name="name" type="text" value="" size="30"/><br>
+                                </p>
+                            </div>
+                            <div class="large-6 medium-6 small-12 columns">
+                                <p>
+                                    Your email:<br/>
+                                    <input name="email" type="text" value="" size="30"/><br>
+                                </p>
+                            </div>
+                            <div class="large-12 medium-12 small-12 columns">
+                                <p>
+                                    Your message:<br>
+                                    <textarea name="message" rows="7" cols="30"></textarea><br>
+                                </p>
+                            </div>
+                            <div class="large-12 medium-12 small-12 columns">
+                                <p>
+                                    <input type="submit" value="Send email" class="button radius"/>
+                                </p>
+                            </div>
 
-                                <div class="large-6 medium-6 small-12 columns">
-                                    <p>
-                                        Your name:<br/>
-                                        <input name="name" type="text" value="" size="30"/><br>
-                                    </p>
-                                </div>
-                                <div class="large-6 medium-6 small-12 columns">
-                                    <p>
-                                        Your email:<br/>
-                                        <input name="email" type="text" value="" size="30"/><br>
-                                    </p>
-                                </div>
-                                <div class="large-12 medium-12 small-12 columns">
-                                    <p>
-                                        Your message:<br>
-                                        <textarea name="message" rows="7" cols="30"></textarea><br>
-                                    </p>
-                                </div>
-                                <div class="large-12 medium-12 small-12 columns">
-                                    <p>
-                                        <input type="submit" value="Send email" class="button radius"/>
-                                    </p>
-                                </div>
+                            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                        </form>
 
-                            </form>
-
-							<?php
-						} else                /* send the submitted data */ {
-							$name    = $_REQUEST['name'];
-							$email   = $_REQUEST['email'];
-							$message = $_REQUEST['message'];
-							if ( ( $name == "" ) || ( $email == "" ) || ( $message == "" ) ) {
-								echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-							} else {
-								$from    = "From: $name<$email>\r\nReturn-path: $email";
-								$subject = "Message sent using your contact form";
-								mail( "info@pantelispantelidis.gr", $subject, $message, $from );
-								echo "Email sent!";
-							}
-						}
-						?>
                     </div>
                 </section>
 
@@ -466,6 +444,17 @@
 
 <script src="js/jquery.gearplayer.libs.min.js"></script>
 <script src="js/jquery.gearplayer.min.js"></script>
+
+<!-- Google reCaptcha v3 -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Lcqs6sUAAAAAHZyF293B6TmlkGApwjZjl4anEit"></script>
+<script>
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6Lcqs6sUAAAAAHZyF293B6TmlkGApwjZjl4anEit', {action: 'contact'}).then(function (token) {
+            var recaptchaResponse = document.getElementById('recaptchaResponse');
+            recaptchaResponse.value = token;
+        });
+    });
+</script>
 
 <script src="js/app.js"></script>
 
