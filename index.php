@@ -377,73 +377,64 @@
 
                     <div class="row">
 
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="action" value="submit">
+
+                            <div class="large-6 medium-6 small-12 columns">
+                                <p>
+                                    Your name:<br/>
+                                    <input name="name" type="text" value="" size="30"/><br>
+                                </p>
+                            </div>
+                            <div class="large-6 medium-6 small-12 columns">
+                                <p>
+                                    Your email:<br/>
+                                    <input name="email" type="text" value="" size="30"/><br>
+                                </p>
+                            </div>
+                            <div class="large-12 medium-12 small-12 columns">
+                                <p>
+                                    Your message:<br>
+                                    <textarea name="message" rows="7" cols="30"></textarea><br>
+                                </p>
+                            </div>
+                            <div class="large-12 medium-12 small-12 columns">
+                                <p>
+                                    <input type="submit" value="Send email" class="button radius"/>
+                                </p>
+                            </div>
+
+                            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                        </form>
+
                         <?php
-                        $action = "";
-                        if (array_key_exists('action', $_REQUEST)) {
-                            $action = $_REQUEST['action'];
-                        }
-                        if ($action == "")    /* display the contact form */ {
-                            ?>
+                        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
 
-                            <form action="" method="POST" enctype="multipart/form-data">
-                                <input type="hidden" name="action" value="submit">
+                            // Build POST request:
+                            $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+                            $recaptcha_secret = '6Lcqs6sUAAAAAG33vKaxkSQsHQwKyHcr6jkk374I';
+                            $recaptcha_response = $_POST['recaptcha_response'];
 
-                                <div class="large-6 medium-6 small-12 columns">
-                                    <p>
-                                        Your name:<br/>
-                                        <input name="name" type="text" value="" size="30"/><br>
-                                    </p>
-                                </div>
-                                <div class="large-6 medium-6 small-12 columns">
-                                    <p>
-                                        Your email:<br/>
-                                        <input name="email" type="text" value="" size="30"/><br>
-                                    </p>
-                                </div>
-                                <div class="large-12 medium-12 small-12 columns">
-                                    <p>
-                                        Your message:<br>
-                                        <textarea name="message" rows="7" cols="30"></textarea><br>
-                                    </p>
-                                </div>
-                                <div class="large-12 medium-12 small-12 columns">
-                                    <p>
-                                        <input type="submit" value="Send email" class="button radius"/>
-                                    </p>
-                                </div>
+                            // Make and decode POST request:
+                            $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+                            $recaptcha = json_decode($recaptcha);
 
-                                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-                            </form>
+                            $name = $_REQUEST['name'];
+                            $email = $_REQUEST['email'];
+                            $message = $_REQUEST['message'];
 
-                            <?php
-                            if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
-
-                                // Build POST request:
-                                $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-                                $recaptcha_secret = '6Lcqs6sUAAAAAG33vKaxkSQsHQwKyHcr6jkk374I';
-                                $recaptcha_response = $_POST['recaptcha_response'];
-
-                                // Make and decode POST request:
-                                $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
-                                $recaptcha = json_decode($recaptcha);
-
-                                $name = $_REQUEST['name'];
-                                $email = $_REQUEST['email'];
-                                $message = $_REQUEST['message'];
-
-                                if ($recaptcha->score >= 0.5) {
-                                    if (($name == "") || ($email == "") || ($message == "")) {
-                                        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-                                    } else {
-                                        $from = "From: $name<$email>\r\nReturn-path: $email";
-                                        $subject = "Message sent using your contact form";
-                                        mail("info@pantelispantelidis.gr", $subject, $message, $from);
-                                        echo "Email sent succesfully!";
-                                    }
+                            if ($recaptcha->score >= 0.5) {
+                                if (($name == "") || ($email == "") || ($message == "")) {
+                                    echo "All fields are required, please fill <a href=\"\">the form</a> again.";
                                 } else {
-                                    // Not verified - show form error
-                                    echo "reCaptcha not verified!";
+                                    $from = "From: $name<$email>\r\nReturn-path: $email";
+                                    $subject = "Message sent using your contact form";
+                                    mail("info@pantelispantelidis.gr", $subject, $message, $from);
+                                    echo "Email sent succesfully!";
                                 }
+                            } else {
+                                // Not verified - show form error
+                                echo "reCaptcha not verified!";
                             }
                         }
                         ?>
